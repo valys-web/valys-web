@@ -37,7 +37,7 @@ const WebsiteMenu = ({openModalWindowsFunc, selection}) => {
       <Navbar.Collapse>
         <Nav activeKey={activeKey}>
           <NavItem eventKey={1} href="/#postres">
-            Postres saludables
+            Menu
           </NavItem>
         </Nav>
         <Nav pullRight>

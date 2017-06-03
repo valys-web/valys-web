@@ -13,7 +13,7 @@ const Pizzas = () => {
       <div id="postres" className="container">
         <PageHeader>
           {' '}<div className="menu-header">
-            Postres saludables<br />
+            Postres<br />
           </div>
         </PageHeader>
         <ProductList products={data.pizzas} containsImages={true}  />

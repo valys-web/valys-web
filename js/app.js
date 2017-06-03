@@ -37753,7 +37753,7 @@ var Pizzas = function Pizzas() {
         _react2.default.createElement(
           'div',
           { className: 'menu-header' },
-          'Postres saludables',
+          'Postres',
           _react2.default.createElement('br', null)
         )
       ),
@@ -37963,7 +37963,7 @@ var WebsiteMenu = function WebsiteMenu(_ref2) {
         _react2.default.createElement(
           _NavItem2.default,
           { eventKey: 1, href: '/#postres' },
-          'Postres saludables'
+          'Menu'
         )
       ),
       _react2.default.createElement(
