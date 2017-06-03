@@ -1,0 +1,77 @@
+{
+    "pizzas": [{
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Tarta de zanahoria",
+            "description": "Tarta de zanahoria con topping de requesón"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Brownie de berenjena"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Tarta de chocolate",
+            "description": "Tarta de chocolate con topping de crema de avellana y cacao"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Tarta primaveral",
+            "description": "Tarta primaveral con fresas, chocolate y mantequilla de cacahuetes"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Tarta tres leches con coco",
+            "description": "Tarta tres leches con coco"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Tarta de calabaza",
+            "description": "Tarta de calabaza y coco con topping de batata"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Scones de manzana",
+            "description": "Scones de manzana y cereza con jengibre y cardamomo"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Tarta de naranja",
+            "description": "Tarta de naranja con semillas y frutos secos"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Pie de frutos del bosque",
+            "description": "Pie de frutos del bosque con un toque de azahar"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Pie de manzana"
+        },
+        {
+            "image": {
+                "src": "http://placehold.it/200x150"
+            },
+            "name": "Pie de limón"
+        }
+    ]
+}

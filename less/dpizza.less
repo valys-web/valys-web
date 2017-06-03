@@ -1,0 +1,147 @@
+/* D'Pizza custom styles */
+@import "theme.less";
+@import "buttons.less";
+
+@theme-color: #8c0707;
+
+.menu-header {
+    border-radius: 25px;
+    color: #f7f4e9;
+    background-color: @theme-color;
+    padding: 15px;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 25px;
+}
+
+@font-family-sans-serif:  'Kalam', cursive;
+
+.navbar-inverse {
+    opacity: 0.9;
+}
+
+.carousel .item, .carousel-inner .item {
+  max-height: 500px;
+}
+
+
+down vote
+The solution is to put that css code into your custom css file
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.row h4 {
+    color: @theme-color;
+}
+
+#menu-items span small {
+    color: gray;
+}
+
+.product-desc {
+    font-size: 18px;
+}
+
+.btn-warning {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.modal-style, .modal-content {
+    margin: 60px auto;
+}
+
+.carousel-caption {
+    @media(max-width: 45em) {
+        display: none;
+    }
+    background: fadeout(black, 90%)
+}
+
+#menu-items .col-md-5, #menu-items .col-md-7 {
+    font-size: 15px;
+}
+
+#menu-items hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-top: 1px solid #eee;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: @screen-md) {
+    #menu-items .col-md-5 {
+        padding-bottom: 10px;
+        }
+    div.grid-layout {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    div.col-md-5 {
+        padding-bottom: 10px;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background: white !important;
+    }
+    .navbar-nav .open .dropdown-menu>li>a {
+        color: #333 !important;
+    }
+    .navbar-nav .open .dropdown-menu .divider {
+        background-color: #e5e5e5 !important;
+    }
+}
+
+.grid-layout {
+    border-radius: 25px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    background-color: #f7f4e9
+}
+
+.footer-layout {
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    padding-top: 15px;
+}
+
+.nav-item {
+    float: left;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 20px;
+    a {
+        color: #ddd;
+        line-height: 28px;
+        padding: 10px 15px;
+    }
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.dropdown.open .dropdown-toggle{
+    background:#4c3f3f !important;
+    color:white !important;
+}
+
+.active.dropdown.open .dropdown-toggle{
+    background: @theme-color !important;
+    color:white !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  margin-top: 45px;
+  width: 110px;
+  border-radius: 8px;
+}
