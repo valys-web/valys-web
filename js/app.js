@@ -38158,7 +38158,7 @@ module.exports = {
 		},
 		{
 			"image": {
-				"src": "http://placehold.it/200x150"
+				"src": "img/browniew-berenjena.jpg"
 			},
 			"name": "Brownie de berenjena"
 		},
