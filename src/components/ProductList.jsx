@@ -51,7 +51,7 @@ const getOffers = offers => {
 };
 
 const ProductList = ({products, containsImages}) => {
-  let config = containsImages ? {col1: 5, col2: 7} : {col1: 0, col2: 12};
+  let config = containsImages ? {col1: 4, col2: 8} : {col1: 0, col2: 12};
   return (
     <Grid bsClass="grid-layout">
       {products.map((product, index) => {

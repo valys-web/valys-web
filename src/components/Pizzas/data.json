@@ -63,13 +63,13 @@
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "http://placehold.it/300x300"
             },
             "name": "Pie de manzana"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "http://placehold.it/300x300"
             },
             "name": "Pie de limón"
         }
