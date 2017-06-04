@@ -14,49 +14,49 @@
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/tarta-chocolate.jpg"
             },
             "name": "Tarta de chocolate",
             "description": "Tarta de chocolate con topping de crema de avellana y cacao"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/tarta-primaveral.jpg"
             },
             "name": "Tarta primaveral",
             "description": "Tarta primaveral con fresas, chocolate y mantequilla de cacahuetes"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/tarta-tresleches.jpg"
             },
             "name": "Tarta tres leches con coco",
             "description": "Tarta tres leches con coco"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/tarta-calabaza.jpg"
             },
             "name": "Tarta de calabaza",
             "description": "Tarta de calabaza y coco con topping de batata"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/scones.jpg"
             },
             "name": "Scones de manzana",
             "description": "Scones de manzana y cereza con jengibre y cardamomo"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/tarta-naranja.jpg"
             },
             "name": "Tarta de naranja",
             "description": "Tarta de naranja con semillas y frutos secos"
         },
         {
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/pie-frutos.jpg"
             },
             "name": "Pie de frutos del bosque",
             "description": "Pie de frutos del bosque con un toque de azahar"
