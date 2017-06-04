@@ -37349,7 +37349,6 @@ var PageFooter = function PageFooter() {
         _react2.default.createElement(
           'p',
           { className: 'small' },
-          ' ',
           'Cont\xE1ctanos',
           _react2.default.createElement('br', null),
           _react2.default.createElement(
@@ -37372,6 +37371,21 @@ var PageFooter = function PageFooter() {
               'a',
               { href: 'mailto:vcaromero@gmail.com' },
               'vcaromero@gmail.com'
+            )
+          ),
+          _react2.default.createElement('br', null),
+          _react2.default.createElement(
+            'span',
+            null,
+            _react2.default.createElement(
+              'a',
+              {
+                href: 'https://www.google.com/maps/place/Restaurant+D+PIZZA/@8.5719975,-71.2600409,12z/data=!4m8!1m2!2m1!1sD\'Pizza+Ejido+Merida!3m4!1s0x0:0x84e5c4d011958208!8m2!3d8.5498515!4d-71.2359953',
+                title: 'Ver direcci\xF3n'
+              },
+              _react2.default.createElement('i', { className: 'glyphicon glyphicon-map-marker' }),
+              ' ',
+              'Madrid, Espa\xF1a'
             )
           )
         )

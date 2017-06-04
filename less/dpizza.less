@@ -2,11 +2,14 @@
 @import "theme.less";
 @import "buttons.less";
 
-@theme-color: #8c0707;
+@theme-color: #752632;
+@second-color: #efe3af;
+
+@navbar-inverse-link-active-bg: @theme-color;
 
 .menu-header {
     border-radius: 25px;
-    color: #f7f4e9;
+    color: #fdfaee;
     background-color: @theme-color;
     padding: 15px;
     opacity: 0.9;
@@ -86,7 +89,7 @@ hr {
         padding-bottom: 10px;
     }
     .navbar-nav .open .dropdown-menu {
-        background: white !important;
+        background: @second-color !important;
     }
     .navbar-nav .open .dropdown-menu>li>a {
         color: #333 !important;
@@ -100,12 +103,16 @@ hr {
     border-radius: 25px;
     padding: 30px 30px 30px 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-    background-color: #f7f4e9
+    background-color: #fdfaee;
+
+    hr {
+        border-top: 1px solid @second-color;
+    }
 }
 
 .footer-layout {
     border-radius: 25px;
-    background-color: #f5f5f5;
+    background-color: #fdfaee;
     padding-top: 15px;
 }
 
@@ -133,7 +140,7 @@ hr {
 
 .active.dropdown.open .dropdown-toggle{
     background: @theme-color !important;
-    color:white !important;
+    color:@second-color !important;
 }
 
 .navbar-brand {
@@ -147,5 +154,9 @@ hr {
 }
 
 .modal-header {
-    background:  #f7f4e9;
+    background:  #fdfaee;
+}
+
+.modal-title {
+    color: @theme-color;
 }
