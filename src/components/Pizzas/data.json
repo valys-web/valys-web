@@ -1,7 +1,7 @@
 {
     "pizzas": [{
             "image": {
-                "src": "http://placehold.it/200x150"
+                "src": "img/tarta-zahanoria.jpg"
             },
             "name": "Tarta de zanahoria",
             "description": "Tarta de zanahoria con topping de requesón"

@@ -14677,7 +14677,7 @@ var ProductList = function ProductList(_ref) {
   var products = _ref.products,
       containsImages = _ref.containsImages;
 
-  var config = containsImages ? { col1: 3, col2: 9 } : { col1: 0, col2: 12 };
+  var config = containsImages ? { col1: 5, col2: 7 } : { col1: 0, col2: 12 };
   return _react2.default.createElement(
     _Grid2.default,
     { bsClass: 'grid-layout' },
@@ -38151,7 +38151,7 @@ module.exports = {
 	"pizzas": [
 		{
 			"image": {
-				"src": "http://placehold.it/200x150"
+				"src": "img/tarta-zahanoria.jpg"
 			},
 			"name": "Tarta de zanahoria",
 			"description": "Tarta de zanahoria con topping de requesón"
