@@ -37286,7 +37286,7 @@ var MainCarousel = function MainCarousel() {
     { className: 'container' },
     _react2.default.createElement(
       _Carousel2.default,
-      null,
+      { interval: null },
       _react2.default.createElement(
         _Carousel2.default.Item,
         null,
@@ -37669,11 +37669,7 @@ var Order = function Order(_ref) {
         _react2.default.createElement(
           _Modal2.default.Title,
           null,
-          _react2.default.createElement(
-            'strong',
-            null,
-            'Ordena'
-          )
+          'Contacto'
         )
       ),
       _react2.default.createElement(
@@ -37999,7 +37995,7 @@ var WebsiteMenu = function WebsiteMenu(_ref2) {
         ),
         _react2.default.createElement(
           _NavItem2.default,
-          { eventKey: 5, onClick: openModalWindowsFunc.order },
+          { eventKey: 5 },
           'Contacto'
         )
       )

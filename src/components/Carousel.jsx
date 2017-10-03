@@ -5,7 +5,7 @@ import Image from './Resources/Image';
 
 const MainCarousel = () => (
   <div className="container">
-    <Carousel>
+    <Carousel interval={null}>
       <Carousel.Item>
         <img src="img/carousel-1.jpg"/>
       </Carousel.Item>

@@ -58,7 +58,7 @@ const WebsiteMenu = ({openModalWindowsFunc, selection}) => {
         <NavItem eventKey={4} href="">
           Talleres
         </NavItem>
-        <NavItem eventKey={5} onClick={openModalWindowsFunc.order}>
+        <NavItem eventKey={5}>
           Contacto
         </NavItem>
         </Nav>
