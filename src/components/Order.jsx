@@ -18,7 +18,7 @@ const Order = ({showModal, closeModal}) => {
           <span>
             <i className="glyphicon glyphicon-envelope" />
             {' '}
-            <a href="mailto:vcaromero@gmail.com">vcaromero@gmail.com</a>
+            <a href="mailto:valys.deli@gmail.com">valys.deli@gmail.com</a>
           </span>
         </Modal.Body>
       </Modal>
