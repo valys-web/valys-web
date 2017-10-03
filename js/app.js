@@ -37970,16 +37970,37 @@ var WebsiteMenu = function WebsiteMenu(_ref2) {
         _react2.default.createElement(
           _NavItem2.default,
           { eventKey: 1, href: '/#postres' },
-          'Menu'
-        )
-      ),
-      _react2.default.createElement(
-        _Nav2.default,
-        { pullRight: true },
+          'Inicio'
+        ),
+        _react2.default.createElement(
+          _NavDropdown2.default,
+          { eventKey: 2, title: 'Productos', id: 'basic-nav-dropdown' },
+          _react2.default.createElement(NavLink, { to: '', text: 'Bizcochos o muffins' }),
+          _react2.default.createElement(_MenuItem2.default, { divider: true }),
+          _react2.default.createElement(NavLink, { to: '', text: 'Tartaletas' }),
+          _react2.default.createElement(_MenuItem2.default, { divider: true }),
+          _react2.default.createElement(NavLink, { to: '', text: 'Barritas energ\xE9ticas' }),
+          _react2.default.createElement(_MenuItem2.default, { divider: true }),
+          _react2.default.createElement(NavLink, { to: '', text: 'Galletas' })
+        ),
+        _react2.default.createElement(
+          _NavDropdown2.default,
+          { eventKey: 3, title: 'Catering', id: 'basic-nav-dropdown' },
+          _react2.default.createElement(NavLink, { to: '', text: 'Coffee chat' }),
+          _react2.default.createElement(_MenuItem2.default, { divider: true }),
+          _react2.default.createElement(NavLink, { to: '', text: 'Eventos' }),
+          _react2.default.createElement(_MenuItem2.default, { divider: true }),
+          _react2.default.createElement(NavLink, { to: '', text: 'Cumplea\xF1os saludables' })
+        ),
         _react2.default.createElement(
           _NavItem2.default,
-          { eventKey: 1, onClick: openModalWindowsFunc.order },
-          'Ordena'
+          { eventKey: 4, href: '' },
+          'Talleres'
+        ),
+        _react2.default.createElement(
+          _NavItem2.default,
+          { eventKey: 5, onClick: openModalWindowsFunc.order },
+          'Contacto'
         )
       )
     )

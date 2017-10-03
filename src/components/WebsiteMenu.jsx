@@ -37,13 +37,30 @@ const WebsiteMenu = ({openModalWindowsFunc, selection}) => {
       <Navbar.Collapse>
         <Nav activeKey={activeKey}>
           <NavItem eventKey={1} href="/#postres">
-            Menu
+            Inicio
           </NavItem>
-        </Nav>
-        <Nav pullRight>
-          <NavItem eventKey={1} onClick={openModalWindowsFunc.order}>
-            Ordena
-          </NavItem>
+        <NavDropdown eventKey={2} title="Productos" id="basic-nav-dropdown">
+          <NavLink to="" text="Bizcochos o muffins" />
+          <MenuItem divider />
+          <NavLink to="" text="Tartaletas" />
+          <MenuItem divider />
+          <NavLink to="" text="Barritas energéticas" />
+          <MenuItem divider />
+          <NavLink to="" text="Galletas" />
+        </NavDropdown>
+        <NavDropdown eventKey={3} title="Catering" id="basic-nav-dropdown">
+          <NavLink to="" text="Coffee chat" />
+          <MenuItem divider />
+          <NavLink to="" text="Eventos" />
+          <MenuItem divider />
+          <NavLink to="" text="Cumpleaños saludables" />
+        </NavDropdown>
+        <NavItem eventKey={4} href="">
+          Talleres
+        </NavItem>
+        <NavItem eventKey={5} onClick={openModalWindowsFunc.order}>
+          Contacto
+        </NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
