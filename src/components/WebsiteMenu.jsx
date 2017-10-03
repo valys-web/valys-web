@@ -30,7 +30,7 @@ const WebsiteMenu = ({openModalWindowsFunc, selection}) => {
       <Navbar.Header>
         <Navbar.Brand>
           <a href="/">
-          <img src="img/valys.jpg" /></a>
+          <img src="img/valys.jpeg" /></a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>

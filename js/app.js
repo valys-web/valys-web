@@ -37963,7 +37963,7 @@ var WebsiteMenu = function WebsiteMenu(_ref2) {
         _react2.default.createElement(
           'a',
           { href: '/' },
-          _react2.default.createElement('img', { src: 'img/valys.jpg' })
+          _react2.default.createElement('img', { src: 'img/valys.jpeg' })
         )
       ),
       _react2.default.createElement(_Navbar2.default.Toggle, null)
