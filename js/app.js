@@ -37370,7 +37370,7 @@ var PageFooter = function PageFooter() {
             _react2.default.createElement(
               'a',
               { href: 'mailto:vcaromero@gmail.com' },
-              'vcaromero@gmail.com'
+              'valys.deli@gmail.com'
             )
           ),
           _react2.default.createElement('br', null),

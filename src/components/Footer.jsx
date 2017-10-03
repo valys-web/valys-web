@@ -16,7 +16,7 @@ const PageFooter = () => (
           <span>
             <i className="glyphicon glyphicon-envelope" />
             {' '}
-            <a href="mailto:vcaromero@gmail.com">vcaromero@gmail.com</a>
+            <a href="mailto:vcaromero@gmail.com">valys.deli@gmail.com</a>
           </span>
           <br />
           <span>
